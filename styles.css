@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px dashed black;
+}
+
+header, nav {
+    display: inline-block;
+    margin-top: 2%;
+}
+
+header {
+    float: left;
+    margin-left: 4%;
+}
+
+header button {
+    /*padding: 4%;*/
+}
+
+nav {
+    width: 35%;
+    float: right;
+}
+
+nav ul {
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 4%;
+}
+
+/*---------------Main Content------------------*/
+
+main {
+    margin-top: 9%;
+}
+
+.first, .third, .fourth {
+    display: inline-block;
+    position: relative;
+}
+
+.first, .second {
+    width: 84%;
+    margin-left: 10%;
+}
+
+.content {
+    width: 55%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.content p {
+    text-align: left;
+    margin-top: 3%;
+}
+
+.content button {
+    margin-top: 3%;
+}
+
+.first img {
+    float: right;
+    right: 2%;
+    width: 40%;
+    height: auto;
+}
+
+.second {
+    margin-top: 7%;
+    margin-left: 0;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.second img {
+    float: left;
+    margin: 0 3% 2% 6%;
+    width: 15%;
+    height: auto;
+}
+
+#smth {
+    width: 100%;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+#theodore{
+    margin-right: 15%;
+    margin-left: 25%;
+    width: 55%;
+    width: auto;
+}
+
+#theodore h2 {
+    margin-top: 8%;
+}
+
+#theodore p, #theodore h2 {
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.third {
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.third h2 {
+    text-align: center;
+}
+
+#for {
+    font-weight: 300;
+}
+
+.services {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+#left, #leftCenter, #rightCenter, #right {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+
+#left {
+    float: left;
+    margin-left: 0;
+}
+
+#right {
+    float: right;
+    margin-right: 0;
+}
+
+#leftCenter {
+    float: left;
+    margin-left: 7%;
+}
+
+#rightCenter {
+    float: right;
+    margin-left: 7%;
+}
+
+#left img, #leftCenter img, #rightCenter img, #right img {
+    margin-bottom: 4%;
+}
+
+#left img {
+    width: 36%;
+    height: auto;
+}
+
+#leftCenter img {
+    width: 34%;
+    height: auto;
+}
+
+#rightCenter img {
+    width: 23%;
+    height: auto;
+}
+
+#right img {
+    width: 34%;
+    height: auto;
+}
+
+#left p, #leftCenter p, #rightCenter p, #right p {
+    text-align: left;
+} 
+
+.fourth {
+    /*background-color: rebeccapurple;*/
+    width: 100%;
+}
+
+.fourth h2 {
+    padding: 2%;
+    text-align: center;
+    /*color: white;*/
+}
+
+.reviews {
+    width: 60%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+.one, .two {
+    display: inline-block;
+    width: 47%;
+    margin: 7% 1% 7% 1%;
+    position: relative;
+}
+
+.one {
+    float: left;
+}
+
+.two {
+    float: right;
+}
+
+.brackets {
+    border: 1px solid red;
+    position: absolute;
+    width: 13%;
+    height: auto;
+}
+
+.one figure, .two figure {
+    margin-left: 18%;
+}
+
+.avatar {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+/*--------------------Footer------------------*/
+
+footer {
+    margin-top: 2%;
+}
+
+footer h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.images {
+    width: 55%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+#f, #m, #s, #c{
+    display: inline-block;
+    margin: 4%;
+    height: auto;
+}
+
+#f {
+    float: left;
+    width: 24%;
+}
+
+#m {
+    width: 15%;
+}
+
+#s {
+    width: 13%;
+}
+
+#c {
+    float: right;
+    width: 12%;
+    
+}
+
+#align {
+    width: 34%;
+    margin: 0 auto; 
+}
+
+#t {
+    width: 41%;
+    height: auto;
+}
+
+#v {
+    float: right;
+    width: 45%;
+    height: auto;
+}
+
+.checkUs {
+    padding: 2%;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.checkUs, p {
+    text-align: center;
+}
+
+#subscribe {
+    width: 60%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+#subscribe button{
+    float: right;
+    display: inline-block;
+}
+
+.rights {
+    margin-top: 0;
+    padding: 4%;
+    position: relative;
+}
+
+.rights div {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 60%;
+}
+
+.rights div p {
+    text-align: left;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
