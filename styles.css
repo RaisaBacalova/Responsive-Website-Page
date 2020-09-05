@@ -1,41 +1,88 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
 }
 
-header, nav {
+.simon, nav {
     display: inline-block;
     margin-top: 2%;
 }
 
-header {
+.simon {
     float: left;
     margin-left: 4%;
 }
 
-header button {
-    /*padding: 4%;*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+    
+    nav {
+        min-width: 10%;
+        float: right;
+        margin-right: 4%;
+    }
+    
+    .small div {
+        width: 30px;
+        height: 5px;
+        background-color: dimgrey;
+        margin: 3px 0;
+    }
 }
 
-nav {
-    width: 35%;
-    float: right;
+@media only screen and (min-width: 600px) {
+    nav ul {
+        display: none;
+    }
+    
+    nav {
+        min-width: 10%;
+        float: right;
+        margin-right: 4%;
+    }
+    
+    .small div {
+        width: 30px;
+        height: 5px;
+        background-color: dimgrey;
+        margin: 3px 0;
+    }
 }
 
-nav ul {
-
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 4%;
+@media only screen and (min-width: 768px) {
+    
+    .small {
+        display: none;
+    }
+    nav {
+        min-width: 30%;
+        float: right;
+        margin-right: 4%;
+    }
+    nav ul {
+        max-width: 100%;
+        float: right;
+        padding-left: 0;
+        display: inline;
+    }
+    
+    nav li {
+        display: inline-table;
+        font-size: 1em;
+        float: left;
+    }
 }
 
 /*---------------Main Content------------------*/
 
 main {
-    margin-top: 9%;
+    
+}
+
+h3 {
+    font-size: 1.17em;
 }
 
 .first, .third, .fourth {
@@ -43,9 +90,10 @@ main {
     position: relative;
 }
 
-.first, .second {
-    width: 84%;
+.first {
+    margin-top: 9%;
     margin-left: 10%;
+    width: 84%;
 }
 
 .content {
@@ -72,11 +120,9 @@ main {
 
 .second {
     margin-top: 7%;
-    margin-left: 0;
-    width: 100%;
     display: inline-block;
     position: relative;
-    
+    background-color: azure;
 }
 
 .second img {
@@ -86,9 +132,8 @@ main {
     height: auto;
 }
 
-#smth {
+#inner {
     width: 100%;
-    border: 1px solid red;
     display: inline-block;
 }
 
@@ -182,14 +227,14 @@ main {
 } 
 
 .fourth {
-    /*background-color: rebeccapurple;*/
+    background-color: midnightblue;
     width: 100%;
 }
 
 .fourth h2 {
     padding: 2%;
     text-align: center;
-    /*color: white;*/
+    color: white;
 }
 
 .reviews {
@@ -202,8 +247,10 @@ main {
 .one, .two {
     display: inline-block;
     width: 47%;
-    margin: 7% 1% 7% 1%;
+    margin: 7% 1%;
     position: relative;
+    padding: 2%;
+    background-color: white;
 }
 
 .one {
@@ -301,19 +348,28 @@ footer h2 {
 
 #subscribe {
     width: 60%;
-    padding: 2%;
+    padding: 3%;
     margin: 0 auto;
+    background-color: midnightblue;
+    margin-bottom: 3%;
 }
 
 #subscribe button{
     float: right;
-    display: inline-block;
+    margin-right: 0 5% 2% 0;
+    /*width: 30%;*/
+}
+
+#subscribe label {
+    color: white;
+    font-size: 1.5em;
 }
 
 .rights {
     margin-top: 0;
-    padding: 4%;
     position: relative;
+    padding: 1%;
+    background-color: darkseagreen;
 }
 
 .rights div {
@@ -328,6 +384,53 @@ footer h2 {
     padding: 1%;
 }
 
+@media only screen and (max-width: 600px) {
+    
+    #left, #leftCenter, #rightCenter, #right {
+        display: block;
+        width: 50%;
+        margin: 2% 0;
+    }
+    
+    .reviews {
+    width: 70%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+}
+    
+    .one, .two {
+    display: table-column;
+    width: 98%;
+    padding: 2%;
+    position: relative;
+}
+    
+    .checkUs, p {
+    text-align: center;
+    font-size: 0.9em;
+}
+    
+    .rights div p {
+    text-align: left;
+    padding: 1%;
+    font-size: 0.7em;
+}
+    
+    #subscribe {
+    width: 60%;
+    padding: 1%;
+    margin: 0 auto;
+    background-color: midnightblue;
+    margin-bottom: 3%;
+}
+    
+    #subscribe label {
+    color: white;
+    font-size: 1.2em;
+}
+    
+}
 
 
 
